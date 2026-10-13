@@ -1,4 +1,4 @@
-# 🛠️ التقنيات المستخدمة — DVLD — نظام إدارة تراخيص القيادة
+# 🛠️ Technologies used — DVLD — Driving License Management System
 - C#
 - .NET 8
 - WinForms

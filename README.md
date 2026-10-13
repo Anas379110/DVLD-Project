@@ -1,20 +1,19 @@
-# DVLD — نظام إدارة تراخيص القيادة
-**DVLD — Driving License Management System** · التصنيف: نظام / تطبيق
-> ملف تعريفي بالمشروع ونطاقه؛ هذا المستودع يحتوي على التوثيق فقط ولا يتضمن الشفرة المصدرية.
+# DVLD — Driving License Management System
+DVLD — Driving License Management System · Classification: System / Application
 > Project overview and scope; this repository contains documentation only, not implementation source code.
 
-## نبذة عن المشروع
-نظام سطح مكتب يؤتمت الخدمات السبع الأساسية لدائرة ترخيص السواقين، ببنية 3 طبقات بلغة C#.
+## Project overview
+A desktop system that automates the seven core services of the Drivers Licensing Department, implemented with a 3-tier architecture in C#.
 
-## أبرز النقاط
-- معمارية 3 طبقات: الوصول للبيانات، منطق الأعمال، وواجهة WinForms
-- استعلامات SQL بارامترية بالكامل لمنع أي ثغرة SQL Injection
-- طبقة منطق الأعمال مغطاة باختبارات xUnit ومستقلة عن قاعدة البيانات
+## Highlights
+- 3-tier architecture: Data Access, Business Logic, and WinForms UI
+- Fully parameterized SQL queries to prevent any SQL Injection vulnerability
+- Business Logic layer covered by xUnit tests and independent from the database
 
-## الدور
-تحليل وتطوير نظام إدارة التراخيص، مع فصل طبقات البيانات ومنطق الأعمال والواجهة، واستخدام الاستعلامات المعلّمة والاختبارات المذكورة.
+## Role
+Analyze and develop the license management system, separating the data, business logic, and UI layers, and using parameterized queries and the tests mentioned above.
 
-## التقنيات المستخدمة
+## Technologies used
 C#, .NET 8, WinForms, SQL Server, ADO.NET, xUnit
 
-التفاصيل في [TECHSTACK.md](./TECHSTACK.md).
+Details in [TECHSTACK.md](./TECHSTACK.md).
